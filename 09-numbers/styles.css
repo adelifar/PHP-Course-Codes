@@ -1,0 +1,9 @@
+pre{
+    background-color: aliceblue;
+    border: 1px solid darkgray;
+    border-radius: 7px;
+    padding: 10px;
+}
+select{
+    padding: 5px;
+}

@@ -1,0 +1,29 @@
+.gallery-item{
+   display: block;
+   width: 14rem;
+   /*background-color: rgb(200,200,200);*/
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   border: 0.123rem solid rgb(100,100,100);
+   border-radius: 0.5rem;
+}
+.gallery-container{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.gallery-item h3{
+   margin-top: 0;
+   margin-bottom: 0;
+   color: black;
+   font-size: 1.2rem;
+   height: 3rem;
+   padding-left: 0.25rem;
+   padding-top: 0.25rem;
+}
+.gallery-item img{
+   display: block;
+   width: 100%;
+   aspect-ratio:1920/1440 ;
+   object-fit: cover;
+}

@@ -1,0 +1,32 @@
+.container{
+    width: 60%;
+    margin: auto;
+    font-family: "IRANSans";
+}
+.form-class{
+    background-color: aliceblue;
+    border: 1px solid darkgray;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+.form-class input,
+.form-class select{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 2rem;
+    width: 40%;
+    text-align: center;
+}
+body{
+    direction: rtl;
+}
+.container img{
+    width: 1000px;
+}
+.container h1{
+    text-align: center;
+}

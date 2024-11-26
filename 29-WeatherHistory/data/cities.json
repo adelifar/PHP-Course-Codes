@@ -1,0 +1,22 @@
+[
+ {
+   "city": "Tehran",
+   "Province": "Tehran",
+   "jsonfile": "tehran.json"
+ },
+ {
+   "city": "Nowshahr",
+   "Province": "Mazandaran",
+   "jsonfile": "nowshahr.json"
+ },
+ {
+   "city": "Hamadan",
+   "Province": "Hamadan",
+   "jsonfile": "hamadan.json"
+ },
+ {
+   "city": "Ahwaz",
+   "Province": "Khuzestan",
+   "jsonfile": "ahwaz.json"
+ }
+]

@@ -1,0 +1,92 @@
+body {
+    font-family: "A Iranian Sans";
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    color: whitesmoke;
+}
+
+header p {
+    padding-bottom: 1rem;
+}
+
+nav {
+    padding: 1rem;
+}
+
+nav a {
+    padding: 0.7rem;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    color: inherit;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main, footer {
+    width: 900px;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+main p {
+    color: #575555;
+}
+
+footer {
+    border-top: 1px solid lightgray;
+    clear: both;
+}
+
+footer p {
+    color: darkgray;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+figure figcaption {
+    text-align: center;
+    font-size: 0.75rem;
+    color: darkgray;
+}
+
+header {
+    padding: 2rem;
+
+    background-repeat: round;
+    margin-top: 0;
+}
+
+figure {
+    text-align: center;
+}
+
+.image {
+    width: 700px;
+    margin: auto;
+}
+
+.header1 {
+    background-image: url("../images/header1.jpg");
+}
+
+.header2 {
+    background-image: url("../images/header2.webp");
+}
+
+.menu-item{
+    width: 45%;
+    text-align: center;
+    float: right;
+}
+.menu-item img{
+    width: 350px;
+}
+.menu-item p{
+    color: darkgray;
+    font-size: 0.75rem;
+}

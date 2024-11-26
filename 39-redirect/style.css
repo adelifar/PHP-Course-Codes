@@ -1,0 +1,22 @@
+pre{
+    background-color: aliceblue;
+    border: 1px solid darkgray;
+    border-radius: 7px;
+    padding: 10px;
+}
+select{
+    padding: 5px;
+}
+.form-class{
+     background-color: aliceblue;
+     border: 1px solid darkgray;
+     border-radius: 6px;
+     padding: 10px;
+     margin: 10px;
+     text-align: center;
+ }
+.form-class input{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
