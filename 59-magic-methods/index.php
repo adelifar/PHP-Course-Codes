@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/plain; charset=utf-8');
 
 class Page
 {
@@ -15,16 +16,14 @@ class Page
     public function __get($key)
     {
 //        var_dump($key);
-//        return 'title1';
+//        return "title1";
         if (isset($this->attributes[$key]))
             return $this->attributes[$key];
         return null;
     }
-
     public function __set($key,$value)
     {
 //        var_dump($key);
-//        echo '<br>';
 //        var_dump($value);
         $this->attributes[$key]=$value;
     }
@@ -40,8 +39,8 @@ $aboutUs = new Page();
 var_dump($aboutUs->title);
 var_dump($aboutUs->id);
 
-
 $aboutUs->content='This is contnet of about us page. you can know about us in this page';
+
 
 var_dump(isset($aboutUs->content));
 var_dump(isset($aboutUs->title));
