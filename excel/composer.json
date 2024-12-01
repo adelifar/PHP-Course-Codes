@@ -1,0 +1,16 @@
+{
+    "name": "mehdi/excel",
+    "autoload": {
+        "psr-4": {
+            "Mehdi\\Excel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MehdiAdeli"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^3.3"
+    }
+}
