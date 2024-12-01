@@ -1,0 +1,11 @@
+{
+    "name": "mehdi/62-composer",
+    "autoload": {
+        "psr-4": {
+            "Mehdi\\62Composer\\": "src/"
+        }
+    },
+    "require": {
+        "nesbot/carbon": "^3.8"
+    }
+}
