@@ -18,7 +18,7 @@
     <nav>
 
         <!--        <a href="index.php?page=index">Main page</a>-->
-        <!--        <a href="index.php?page=about-us">About us</a>-->
+                <a href="index.php?<?=http_build_query(['route'=>'admin/pages'])?>">Admin panel</a>
         <?php foreach ($navigation as $navPage): ?>
             <a href="index.php?<?= http_build_query(['page' => $navPage->slug]) ?>"
                 <?php if (!empty($page) && !empty($page->id) && $navPage->id === $page->id): ?>

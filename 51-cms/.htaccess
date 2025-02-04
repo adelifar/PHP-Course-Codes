@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteRule ^important$ index.php?page=important [L,R=301,NC]
+RewriteRule ^home$ index.php?page=index
+RewriteRule ^admin/home$ index.php?route=admin/pages
+#RewriteRule ^admin/(.*)$ index.php?route=admin/pages/$1
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{HTTP_USER_AGENT} Googlebot
+RewriteRule ^admin/edit/(\d*)$  index.php?route=admin/pages/edit&id=$1
+#admin/edit/45
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
